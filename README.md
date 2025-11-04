@@ -30,11 +30,8 @@ This repository contains the implementation of the Deep Reasoning Project (DRP),
 ## ⚙️ Environment Setup
 
 ```bash
-# Create and activate conda environment
-conda create -n DRP python=3.8
+conda create -n DRP python=3.11
 conda activate DRP
-
-# Install required packages
 pip install -r requirements.txt
 ```
 
