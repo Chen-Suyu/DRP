@@ -45,13 +45,13 @@ You can also process the dataset yourself and store it locally by the following 
 ```bash
 cd data/
 ./create.sh
-```bash
+```
 
 ## ⌛️ Quick Start
 To execute the DRP method, please first complete the required information in the .env file. Then, run the following command:
 ```bash
 ./main.sh
-```bash
+```
 
 
 ## 📈 Experimental Results
