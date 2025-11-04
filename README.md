@@ -52,8 +52,6 @@ cd data/
 ./create.sh
 ```
 
-You can modify the `main.sh` file to change parameters:
-
 
 ## 📈 Experimental Results
 
