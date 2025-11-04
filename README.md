@@ -11,7 +11,7 @@
 
 <br/>
 
-This repository contains the implementation of the Deep Reasoning Project (DRP), focusing on evaluating and comparing different large language models' performance on reasoning tasks across Books and CDs & Vinyl datasets.
+This repository contains the implementation of the Difference-aware Reasoning Personalization (DRP), a framework that reconstructs the difference extraction mechanism by leveraging inference scaling to enhance LLM personalization.
 
 <p id="Catalogue"></p>  
 
