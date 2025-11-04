@@ -42,28 +42,6 @@ This project uses datasets adapted from the [DPL-main dataset](https://huggingfa
 - **Books**: Book reviews and ratings dataset
 - **CDs & Vinyl**: Music album reviews and ratings dataset
 
-### Download Dataset
-
-You can download the dataset from Hugging Face:
-
-```bash
-# Using huggingface-cli
-huggingface-cli download SnowCharmQ/DPL-main --repo-type dataset --local-dir data/
-
-# Or using Python
-from huggingface_hub import snapshot_download
-snapshot_download(repo_id="SnowCharmQ/DPL-main", repo_type="dataset", local_dir="data/")
-```
-
-### Data Preprocessing
-
-```bash
-python 0_prepare_diff_inputs.py
-python 1_get_diff_outputs_deepseek.py
-python 1_get_diff_outputs_qwen.py
-python 2_get_final_outputs.py
-python 3_eval_basic.py
-```
 
 ## 📈 Experimental Results
 
