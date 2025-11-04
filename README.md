@@ -1,6 +1,7 @@
 <div align=center>
 
 <h1>DRP: Deep Reasoning Project</h1>
+
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/🤗_Transformers-4.30+-FFD21E?style=for-the-badge)](https://huggingface.co/docs/transformers)
@@ -23,6 +24,9 @@ This repository contains the implementation of the Deep Reasoning Project (DRP),
 - [⌛️ Quick Start](#️-quick-start)
 - [📈 Experimental Results](#-experimental-results)
 - [📁 Project Structure](#-project-structure)
+- [🔧 Requirements](#-requirements)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
 ## ⚙️ Environment Setup
 
@@ -37,9 +41,23 @@ pip install -r requirements.txt
 
 ## 📊 Dataset
 
-This project uses two datasets:
+This project uses datasets adapted from the [DPL-main dataset](https://huggingface.co/datasets/SnowCharmQ/DPL-main) on Hugging Face:
+
 - **Books**: Book reviews and ratings dataset
 - **CDs & Vinyl**: Music album reviews and ratings dataset
+
+### Download Dataset
+
+You can download the dataset from Hugging Face:
+
+```bash
+# Using huggingface-cli
+huggingface-cli download SnowCharmQ/DPL-main --repo-type dataset --local-dir data/
+
+# Or using Python
+from huggingface_hub import snapshot_download
+snapshot_download(repo_id="SnowCharmQ/DPL-main", repo_type="dataset", local_dir="data/")
+```
 
 ### Data Preprocessing
 
@@ -59,8 +77,11 @@ python 2_get_final_outputs.py
 
 ## ⌛️ Quick Start
 
-### Step 1: Prepare Data
-Ensure your input data is placed in the `data/` directory.
+### Step 1: Download Dataset
+```bash
+# Download from Hugging Face
+huggingface-cli download SnowCharmQ/DPL-main --repo-type dataset --local-dir data/
+```
 
 ### Step 2: Run Preprocessing
 ```bash
@@ -122,6 +143,7 @@ DRP/
 ```
 torch>=2.0.0
 transformers>=4.30.0
+huggingface-hub>=0.20.0
 numpy>=1.24.0
 pandas>=2.0.0
 tqdm>=4.65.0
@@ -133,8 +155,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-We thank the developers of the baseline methods and datasets used in this project.
+We thank the developers of the baseline methods and datasets used in this project. Special thanks to the [DPL project](https://huggingface.co/datasets/SnowCharmQ/DPL-main) for providing the dataset.
 
 ---
 
+<div align=center>
+
 **Note**: This is a research project. For questions or issues, please open an issue in this repository.
+
+*Last updated: 2025-11-04*
+
+</div>
