@@ -2,8 +2,8 @@
 
 <h1>DRP: Deep Reasoning Project</h1>
 
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗_Dataset-DPL--main-yellow?style=for-the-badge)](https://huggingface.co/datasets/SnowCharmQ/DPL-main)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
 
