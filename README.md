@@ -22,8 +22,6 @@ This repository contains the implementation of the Deep Reasoning Project (DRP),
 - [📊 Dataset](#-dataset)
 - [⌛️ Quick Start](#️-quick-start)
 - [📈 Experimental Results](#-experimental-results)
-- [📁 Project Structure](#-project-structure)
-- [🔧 Requirements](#-requirements)
 - [📄 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
 
@@ -41,18 +39,23 @@ This project uses datasets adapted from the [DPL-main dataset](https://huggingfa
 
 - **Books**: Book reviews and ratings dataset
 - **CDs & Vinyl**: Music album reviews and ratings dataset
+
 You can also process the dataset yourself and store it locally by the following commands:
+
 ```bash
 cd data/
 ./create.sh
 ```
 
 ## ⌛️ Quick Start
-To execute the DRP method, please first complete the required information in the .env file. Then, run the following command:
+
+To execute the DRP method, please first complete the required information in the `.env` file. Then, run the following command:
+
 ```bash
 ./main.sh
 ```
 
+You can modify the `main.sh` file to change parameters.
 
 ## 📈 Experimental Results
 
@@ -67,7 +70,6 @@ Results on both datasets. **QwenX** and **DpSkX** refer to the Qwen-Instruct and
 - Our DRP method achieves competitive performance across different model sizes
 - DeepSeek models show strong performance on the Books dataset
 - Qwen models demonstrate excellent results on CDs & Vinyl dataset
-
 
 ## 📄 License
 
