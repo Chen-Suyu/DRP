@@ -115,6 +115,9 @@ python 3_eval_basic.py
 
 ### Performance Comparison
 
+![Performance Comparison](images/performance_comparison.png)
+
+**Table 1**: Results on both datasets. **QwenX** and **DpSkX** refer to the Qwen-Instruct and DeepSeek-R1-Distill-Qwen models, respectively, each with X parameters. The best and second-best results are highlighted in **bold** and <u>underlined</u> font, respectively.
 
 ### Key Findings
 
