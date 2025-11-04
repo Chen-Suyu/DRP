@@ -3,6 +3,9 @@
 <h1>DRP: Deep Reasoning Project</h1>
 
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗_Dataset-DPL--main-yellow?style=plastic)](https://huggingface.co/datasets/SnowCharmQ/DPL-main)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗_Dataset-DPL--meta-yellow?style=plastic)](https://huggingface.co/datasets/SnowCharmQ/DPL-meta)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗_Dataset-DPL--Yelp-yellow?style=plastic)](https://huggingface.co/datasets/SnowCharmQ/DPL-Yelp)
+
 [![License](https://img.shields.io/badge/License-MIT-green?style=plastic)](LICENSE)
 
 </div>
