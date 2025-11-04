@@ -10,8 +10,7 @@
 > ¹University of Science and Technology of China, Hefei, China  
 > ²The Chinese University of Hong Kong, Hong Kong, China  
 > ³National University of Singapore, Singapore
-> 
-> †Corresponding authors
+
 
 ## 📖 Overview
 
@@ -116,12 +115,6 @@ python 3_eval_basic.py
 
 ### Performance Comparison
 
-| Dataset | Metric | DPL | Qwen-7B | **DpSk-7B (Ours)** | **DpSk-14B (Ours)** | **DpSk-32B (Ours)** |
-|---------|--------|-----|---------|-------------------|-------------------|-------------------|
-| **Books** | BLEU | 5.6534 | 6.0444 | **6.2346** | **6.9535** | - |
-| | METEOR | 0.2373 | 0.2457 | **0.2409** | **0.2462** | **0.2551** |
-| **CDs & Vinyl** | BLEU | 2.7189 | 2.7000 | **2.8617** | **2.8092** | - |
-| | METEOR | 0.2026 | 0.2044 | **0.2062** | **0.2073** | - |
 
 ### Key Findings
 
@@ -167,23 +160,6 @@ Each dataset contains user review histories for personalized review generation t
 - **Temperature**: Experiments conducted at temperatures 0 and 0.8, results averaged
 - **Evaluation Metrics**: BLEU, METEOR, ROUGE-1, ROUGE-L
 
-## 📄 Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@inproceedings{chen2025drp,
-  title={Unveiling Inference Scaling for Difference-Aware User Modeling in LLM Personalization},
-  author={Chen, Suyu and Bai, Yimeng and Zhao, Xiaoyan and Zhang, Yang},
-  booktitle={Proceedings of the ACM Conference},
-  year={2025}
-}
-```
-
-## 📧 Contact
-
-- **Suyu Chen**: chensuyv@mail.ustc.edu.cn
-- **Yimeng Bai**: baiyimeng@mail.ustc.edu.cn
 
 ## 📜 License
 
