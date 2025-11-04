@@ -1,8 +1,11 @@
 <div align=center>
 
 <h1>DRP: Deep Reasoning Project</h1>
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/🤗_Transformers-4.30+-FFD21E?style=for-the-badge)](https://huggingface.co/docs/transformers)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗_Dataset-DPL--main-yellow?style=for-the-badge)](https://huggingface.co/datasets/SnowCharmQ/DPL-main)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
 
