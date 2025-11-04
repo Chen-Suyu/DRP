@@ -41,16 +41,17 @@ This project uses datasets adapted from the [DPL-main dataset](https://huggingfa
 
 - **Books**: Book reviews and ratings dataset
 - **CDs & Vinyl**: Music album reviews and ratings dataset
-
-
-## ⌛️ Quick Start
-
-To execute the DRP method, run the following command:
-
+You can also process the dataset yourself and store it locally by the following commands:
 ```bash
 cd data/
 ./create.sh
-```
+```bash
+
+## ⌛️ Quick Start
+To execute the DRP method, please first complete the required information in the .env file. Then, run the following command:
+```bash
+./main.sh
+```bash
 
 
 ## 📈 Experimental Results
